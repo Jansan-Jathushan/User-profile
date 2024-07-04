@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    background-color: black;
+
+}
+
+
+#moreUsersBtn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-position: center;
+    color: #ccc;
+    background-color: rgb(39, 37, 37);
+    border-radius: 10px;
+}
+
+
+.profiles-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    color: white;
+
+}
+
+.profile-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: rgb(39, 37, 37);
+}
+
+.profile-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.profile-card p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.profiles-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 50px;
+    color: #ccc;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+
+.profiles-table th,
+.profiles-table td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: left;
+}
+
+.profiles-table th {
+    background-color: rgb(39, 37, 37);
+    color: #ccc;
+}
